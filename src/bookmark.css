@@ -1,0 +1,48 @@
+/* Bookmark button styles */
+.article-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .bookmark-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    color: #555;
+  }
+  
+  .bookmark-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .bookmark-button.bookmarked {
+    color: #2c7be5;
+  }
+  
+  .bookmark-button.bookmarked:hover {
+    background-color: rgba(44, 123, 229, 0.1);
+  }
+  
+  .bookmark-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  .bookmark-icon {
+    font-size: 1.1rem;
+  }
+  
+  .bookmark-loader {
+    display: inline-block;
+    width: 1rem;
+    text-align: center;
+  }

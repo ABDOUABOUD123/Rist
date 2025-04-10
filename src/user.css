@@ -1,0 +1,225 @@
+/* Login Specific Styles */
+.login-page-wrapper {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px; /* Add padding to prevent touching screen edges */
+}
+
+.login-page-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  text-align: center;
+}
+
+.login-page-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-page-subheader {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.login-page-social {
+  width: 100%;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.login-page-social-header {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.login-page-form {
+  width: 100%;
+}
+
+.login-page-input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.login-page-input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+  text-transform: lowercase;
+}
+
+.login-page-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.login-page-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #006A71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.login-page-footer-links {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.login-page-link {
+  font-size: 13px;
+  color: #666;
+  margin: 8px 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.login-page-skip-container {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.login-page-skip-link {
+  font-size: 14px;
+  color: #006A71;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-page-copyright {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #999;
+}
+/* Add to user.css */
+.login-error {
+  color: #ff4444;
+  background-color: #ffebee;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #ffcdd2;
+}
+
+.login-page-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
+/* Signup Specific Styles */
+/* Register Specific Styles */
+.register-page-wrapper {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.register-page-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  text-align: center;
+}
+
+.register-page-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.register-page-subheader {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.register-page-form {
+  width: 100%;
+}
+
+.register-page-input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.register-page-input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+  text-transform: lowercase;
+}
+
+.register-page-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.register-page-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #006A71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.register-page-footer-links {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.register-page-link {
+  font-size: 13px;
+  color: #666;
+  margin: 8px 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.register-page-copyright {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #999;
+}
